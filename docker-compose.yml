@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  # ---------------------------
+  # Team One
+  # ---------------------------
+  team-one:
+    container_name: "team-one"
+    build: .
+    image: team-one
+    networks:
+      - micro-frontend
+
+networks:
+  micro-frontend:
+    driver: bridge

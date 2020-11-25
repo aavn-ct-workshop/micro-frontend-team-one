@@ -1,0 +1,27 @@
+.align {
+ text-align: center;
+}
+
+.total_money_container {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background: linear-gradient(rgb(46, 204, 113), rgb(26, 188, 156));
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.current-amount {
+    background: linear-gradient(rgb(46, 204, 113), rgb(26, 188, 156));
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 20px;
+    height: 2em;
+}
+
