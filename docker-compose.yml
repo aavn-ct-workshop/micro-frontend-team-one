@@ -2,15 +2,12 @@ version: '3.3'
 
 services:
   # ---------------------------
-  # Team One
+  # Start Team One Sandbox
   # ---------------------------
   team-one:
-    container_name: "team-one"
+    container_name: "team-one-sandbox"
+    hostname: "team-one-sandbox"
     build: .
-    image: team-one
-    networks:
-      - micro-frontend
-
-networks:
-  micro-frontend:
-    driver: bridge
+    image: team-one-sandbox
+    ports:
+      - 8080:8080

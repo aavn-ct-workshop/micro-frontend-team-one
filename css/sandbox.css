@@ -1,0 +1,39 @@
+.stripe {
+    background: repeating-linear-gradient(45deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2) 10px,rgba(0, 0, 0, 0.3) 10px,rgba(0, 0, 0, 0.3) 20px);
+}
+
+.pricing-table.dummy-product {
+    height: 300px;
+}
+
+.pricing-table.dummy-product .pricing-table-header {
+    background: transparent;
+    position: relative;
+    top: 100px;
+}
+
+.pricing-table.dummy-product .pricing-table-footer {
+    position: relative;
+    top: 220px;
+}
+
+.pricing-table.dummy-product .pricing-table-price {
+    font-size: 18px;
+    color: #000000;
+}
+
+.dummy-receipt {
+    height: 100px;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.dummy-amount-1000000, .dummy-amount-9900000 {
+    border: white 1px solid;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+}

@@ -33,9 +33,9 @@ class OneBanner extends HTMLElement {
     this.render();
   }
   render() {
-    this.innerHTML = `<div class="banner stripe">
+    this.innerHTML = `<div class="banner">
     <img alt="Image of Bill Gates"
-      src="https://aspenideasfestival.imgix.net/null1f7090e6-c2b5-4d8d-b979-da4658c431b2/Gates_Bill_AIF2020.jpg?auto=compress%2Cformat&fit=min&fm=jpg&h=290&q=80&rect=0%2C0%2C1000%2C1000&w=290"
+      src="images/billgates.jpg"
       class="banner-image center">
       <h3 class="banner-head">
         Spend Bill Gates's Money
