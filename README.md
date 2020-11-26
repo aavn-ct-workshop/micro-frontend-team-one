@@ -14,16 +14,17 @@ As the workshop organizer, we decide that we separate the application into multi
 So that we can work indepently and the team do their fragment freely choose the framework they want.
 
 ## Team specific requirements
-1. Build a fragment can display the receipt like this:
-    * When _buy / sell_ is clicked, receipt must be updated (_with buy / sell action belong to team 2_).
-    * When receipt total is changed, must update Bill remaining money (_with Bill remaining money belong to team 1_)
-    ![image](documentation/team-three-fragment.png)  
+1. Build 2 fragments can display the app banner and the current money of Bill like this:
+    * When receipt total is changed, must update Bill current money (_with receipt total belong to team 3_)
+    * When Bill current money is changed, the _buy_ button must be update disable or enable (_with buy / sell action belong to team 2_).  
+    ![image](documentation/team-one-fragment.png)  
 
     __Hint__: Your team should produce a fragment within JS file. Application just import your JS and declare some thing like:  
     ```html
-    <receipt></receipt>
+    <banner><banner>
+    <current-amount></current-amount>
     ```
 
 2. Build a _sandbox page_ where other teams can test how your team fragment look like, how it behave.  
-    ![image](documentation/team-three-sandbox.png)  
+    ![image](documentation/team-one-sandbox.png)  
     __Hint__: Your team will mock fragments of other teams. (image above)
