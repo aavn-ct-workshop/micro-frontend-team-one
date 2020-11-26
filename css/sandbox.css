@@ -24,16 +24,21 @@
 
 .dummy-receipt {
     height: 100px;
-    color: white;
+    color: #000000;
     font-size: 24px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.dummy-amount-1000000, .dummy-amount-9900000 {
-    border: white 1px solid;
+.dummy-total-1000000, .dummy-total-9999999 {
+    border: #000000 2px solid;
     border-radius: 4px;
     padding: 4px;
     cursor: pointer;
+}
+
+.button-disable {
+    background-color: #797979;
+    pointer-events: none;
 }
