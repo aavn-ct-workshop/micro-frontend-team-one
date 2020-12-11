@@ -1,10 +1,10 @@
 const fakeProducts = {	
-    airpods: { name: "Airpods", price: "199000", img: "airpods.jpg" },	
-    shoe: { name: "Air Jordans", price: "125000", img: "air-jordans.jpg" },	
-    iphone: { name: "Smartphone", price: "699000", img: "smartphone.jpg" },	
-    book: { name: "Book", price: "15000", img: "book.jpg" },	
-    bike: { name: "Bike", price: "800000", img: "bike.jpg" },	
-    videoGame: { name: "Gaming Console", price: "299000", img: "video-game.jpg" }	
+    "rolex": { "name": "Rolex", "price": "150000", "img": "rolex.jpg" },
+    "ford-f-150": { "name": "Ford F-150", "price": "300000", "img": "ford-f-150.jpg" },
+    "tesla": { "name": "Tesla", "price": "750000", "img": "tesla.jpg" },
+    "monster-truck": { "name": "Monster Truck", "price": "1500000", "img": "monster-truck.jpg" },
+    "ferrari": { "name": "Ferrari", "price": "2500000", "img": "ferrari.jpg" },
+    "single-family-home": { "name": "Single Family Home", "price": "3000000", "img": "single-family-home.jpg" }
 }
 
 // Init sandbox products
