@@ -1,10 +1,10 @@
 const fakeProducts = {	
-    "rolex": { "name": "Rolex", "price": "150000", "img": "rolex.jpg" },
-    "ford-f-150": { "name": "Ford F-150", "price": "300000", "img": "ford-f-150.jpg" },
-    "tesla": { "name": "Tesla", "price": "750000", "img": "tesla.jpg" },
-    "monster-truck": { "name": "Monster Truck", "price": "1500000", "img": "monster-truck.jpg" },
-    "ferrari": { "name": "Ferrari", "price": "2500000", "img": "ferrari.jpg" },
-    "single-family-home": { "name": "Single Family Home", "price": "3000000", "img": "single-family-home.jpg" }
+    "rolex": { name: "Rolex", price: 150000, img: "rolex.jpg" },
+    "ford-f-150": { name: "Ford F-150", price: 300000, img: "ford-f-150.jpg" },
+    "tesla": { name: "Tesla", price: 750000, img: "tesla.jpg" },
+    "monster-truck": { name: "Monster Truck", price: 1500000, img: "monster-truck.jpg" },
+    "ferrari": { name: "Ferrari", price: 2500000, img: "ferrari.jpg" },
+    "single-family-home": { name: "Single Family Home", price: 3000000, img: "single-family-home.jpg" }
 }
 
 // Init sandbox products
